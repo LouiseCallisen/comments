@@ -1,0 +1,123 @@
+
+form { 
+	border: #cccccc 1px solid; 
+	padding: 5px; 
+	margin-bottom: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+}
+
+.form-element { 
+	margin-bottom: 0px; 
+}
+
+#sendbutton {
+	height: 40px;
+	float: right;
+}
+#refresh-btn { 
+	margin-bottom: 0px; 
+}
+
+.comment { 
+	padding: 10px; 
+	margin-bottom: 10px; 
+	border-bottom: #cccccc 1px solid;
+	height: 20px;
+	width: 350px;
+}
+
+.comment .links { float: right; }
+.comment .links a { margin-left: 10px; }
+.comment .author { font-style: italic; }
+			
+			
+
+#tabletframe {
+	margin: -20px auto;
+	height: 800px;
+	width: 1120px;
+	background-color: white;
+}
+
+#tabletpicture {
+	position: absolute;
+}
+
+#insideframe {
+	position: absolute;
+	margin: 103px 87px;
+	width: 953px;
+	height: 558px;
+	background-color: white;
+}
+
+#visualization {
+	position: relative;
+	margin: 20px auto;
+	background-color: yellow;
+	border: 1px solid black;
+	height: 300px;
+	width: 500px;	
+}
+
+#messages {
+	position: relative;
+	margin: 0px auto;
+	width: 825px;
+	height: 205px;
+}
+
+#messageout{
+	float: left;
+	width: 400px;
+	height: 200px;
+	border: 2px solid black;
+}
+#messagewindow1 {
+	position: relative;
+	height: 150px;
+	background-color: grey;
+	overflow: auto;
+}
+
+#messagein {
+	float: right;
+	width: 400px;
+	height: 200px;
+	border: 2px solid black;
+}
+
+#myText {
+	position: relative;
+	float: left;
+}
+#enter {
+	margin-top: 2px;
+	height: 22px;
+	width: 50px;
+	background-color: yellow;
+	position: relative;
+	float: left;
+}
+#arduinotext {
+	position: absolute;
+	background-color: red;
+	height: 25px; 
+	width: 360px;
+	margin-top: -30px;
+}
+#state0 {
+	position: absolute;
+}
+#state1 {
+	margin-top: -360px;
+}
+.inputs {
+	width: 360px;
+	height: 25px;
+	background-color: yellow;
+	border: 1px solid black;
+	margin: 10px;
+}

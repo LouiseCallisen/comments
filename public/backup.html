@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Deployd Tutorial</title>
+		
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet" />
+		
+		<script type="text/javascript" src="jquery.1.8.3.js"></script>	
+		<script type="text/javascript" src="/dpd.js"></script>		
+		<script type="text/javascript" src="script.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<div id="tabletframe">
+			<img id="tabletpicture" src="tablet.png" height="800" alt="tablet"></img>
+			<div class="ARDUINO" id="arduinotext"><header> DETTE ER TWEETET </header></div> 	<!--class=ARDUINO id=arduinotext-->
+			
+			<div id="insideframe"> 
+					
+				<div id="visualization">
+					<iframe width="490" height="290" style="border: 1px solid #cccccc;" src="http://api.thingspeak.com/channels/5344/charts/1?width=450&height=260&results=60&dynamic=true&yaxis=Activity&xaxis=Date%20and%20time" ></iframe>
+				</div>
+								
+				<div id="messages">
+									
+					<div id="messageout">
+										
+						<div id="messagewindow1">
+							<div id="state0">No previous requests</div>
+							
+							<div id="comments">
+							</div>						
+						</div>
+						
+						<!--<input id="myText" type="text" value="Send a request" size=50>-->				
+						
+						<form id="comment-form">
+							<textarea id="comment" name="comment" rows="2" cols="31"></textarea> <!--kan ikke klare eget input-->
+							<button id="sendbutton" type="submit">Send Request</button>
+						</form>
+						
+					</div>
+					
+					
+					<!--<div id="messagein"><a class="twitter-timeline" width="400" height="200" href="https://twitter.com/HolidaySecurity" data-widget-id="331502662891749376">Tweets by @HolidaySecurity</a>
+					</div>
+					
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+					if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}
+					(document,"script","twitter-wjs");</script>-->
+				</div>
+
+			</div>
+			
+		</div>
+		
+	</body>
+
+</html>
