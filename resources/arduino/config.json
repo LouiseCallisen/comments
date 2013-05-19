@@ -1,0 +1,13 @@
+{
+	"type": "Collection",
+	"properties": {
+		"messagetoarduino": {
+			"name": "messagetoarduino",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "messagetoarduino",
+			"order": 0
+		}
+	}
+}
